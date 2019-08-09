@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,p,x,t,count=0;
+printf("enter the discount required");
+scanf("%d" &P);
+printf("enter the sum");
+scanf("%d" &x);
+for(i=1:i<=p;i++)
+{
+t=x/p;
+x=x-t;
+count++
+}
+printf("%d",count);
+return()
+}
